@@ -1,7 +1,7 @@
 package com.pedalometro.weather_api.exceptions;
 
-public class WeatherNotFoundException extends RuntimeException {
-    public WeatherNotFoundException(String message) {
+public class WeatherDataNotFoundException extends RuntimeException {
+    public WeatherDataNotFoundException(String message) {
         super(message);
     }
 }
