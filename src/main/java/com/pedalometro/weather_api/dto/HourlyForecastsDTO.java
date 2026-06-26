@@ -5,6 +5,5 @@ public record HourlyForecastsDTO(
         Integer rainChance,
         Double windSpeed,
         Integer score
-
 ) {
 }

@@ -1,4 +1,9 @@
 package com.pedalometro.weather_api.dto;
 
-public record OpenMeteoDailyDTO() {
+import java.util.List;
+
+public record OpenMeteoDailyDTO(
+        List<String> sunrise,
+        List<String> sunset
+) {
 }

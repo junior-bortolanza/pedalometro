@@ -1,4 +1,8 @@
 package com.pedalometro.weather_api.dto;
 
-public record GeoCodingResponseDTO() {
+import java.util.List;
+
+public record GeoCodingResponseDTO(
+        List<GeocodingResultsDTO> results
+) {
 }
