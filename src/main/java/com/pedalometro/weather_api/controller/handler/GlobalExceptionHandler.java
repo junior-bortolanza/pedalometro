@@ -1,4 +1,4 @@
-package com.pedalometro.weather_api.controller;
+package com.pedalometro.weather_api.controller.handler;
 
 import com.pedalometro.weather_api.exceptions.*;
 import com.pedalometro.weather_api.exceptions.dto.ErrorDTO;
